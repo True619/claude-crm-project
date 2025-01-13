@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleBtn.addEventListener('click', function () {
         if (myDiv.classList.contains('menu_bottom')) {
             myDiv.classList.toggle('new-width');
-            claudeText.classList.toggle('clod_opacity')
+            // claudeText.classList.toggle('clod_opacity')
         } 
     });
 });

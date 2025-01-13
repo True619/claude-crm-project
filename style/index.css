@@ -183,7 +183,6 @@ body {
 .menu_bottom {
   position: sticky;
   bottom: 0px;
-  border-radius: 10px;
   width: 159px;
   height: 74px;
   background: #4C4D4DD9;
