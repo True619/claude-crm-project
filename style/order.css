@@ -1,0 +1,147 @@
+.close_parent{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 15px;
+}
+
+.close_btn{
+    width: 25px;
+    height: 25px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+.order_price_parent{
+    padding: 0 20px;
+    
+}
+
+.order_price{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Arsenal SC", serif;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+
+.order_price div{
+    letter-spacing: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+ul{
+    padding: 10px 20px;
+    min-height: 58.7vh;
+    
+}
+ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Arsenal SC", serif;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul li>div{
+    letter-spacing: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.minus_btn{
+    width: 31px;
+    height: 31px;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    font-size: 22px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+
+.send_box{
+    width: 100%;
+    background: #1E3932;
+    border-radius: 10px 10px 0 0;
+   
+}
+.delete_chat_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.delete_btn{
+    border: none;
+    background: transparent;
+    font-size: 36px;
+    cursor: pointer;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.chat_btn{
+    border: none;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 32px;
+    cursor: pointer; 
+}
+.all_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-family: "Arsenal SC", serif;
+     font-size: 30px;
+     color: #fff;
+}
+
+.send_btn_parent{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 20px;
+
+}
+.send_btn{
+    width: 100%;
+height: 56px;
+border: none;
+border-radius: 20px;
+background: #000;
+color: white;
+font-size: 30px;
+font-family: "Arsenal SC", serif;
+cursor: pointer;
+}

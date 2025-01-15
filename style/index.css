@@ -37,7 +37,9 @@ body {
   align-items: center;
   gap: 32px;
 }
-
+.container{
+  position: relative;
+}
 .nav_tools .searching img {
   margin-top: 10px;
 }
@@ -192,10 +194,11 @@ body {
   gap: 10px;
   transition: 0.5s all;
   border-radius:10px 10px 0px 0px;
+  
 }
 
 .new-width {
-  width: 100% !important;
+  width:100% !important;
   transition: 0.5s all;
 }
 
@@ -347,7 +350,7 @@ body {
 }
 
 .produc_animate {
-  animation: imgMove 1.5s linear forwards;
+  animation: imgMove 1s linear forwards;
   z-index: 1000;
 }
 
@@ -359,7 +362,7 @@ body {
   100% {
     transform: translateY(600px);
     scale: 0.7;
-    translate: 50px;
+    translate: 180px;
     opacity: 0;
     display: none;
   }
