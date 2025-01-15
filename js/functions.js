@@ -9,4 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // claudeText.classList.toggle('clod_opacity')
         } 
     });
+    
+
 });
+

@@ -280,44 +280,48 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 0 20px;
-  gap: 10px;
+  height: 100vh;
+  gap: 20px;
 }
 
-.card_product{
+.card_product {
   width: 100%;
   height: 393px;
+  padding: 10px 0;
   border-radius: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
+  gap: 20px;
 }
 
-.product_title_feed{
+.product_title_feed {
   font-family: "Aldrich", serif;
- font-weight: 100;
- text-align: center;
+  font-weight: 100;
+  text-align: center;
 }
-.product_img_feed{
+
+.product_img_feed {
   width: 203px;
   height: 170px;
   object-fit: contain;
 }
 
-.product_box-1{
+.product_box-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 0 20px;
-
 }
 
-.product_box-1 button{
+.product_box-1 button {
   width: 58px;
   height: 52px;
   border-radius: 20px;
-  background: #1E3932;
+  background: #1e3932;
   border: none;
   display: flex;
   align-items: center;
@@ -326,12 +330,37 @@ body {
   transition: all 0.1s linear;
 }
 
-.product_box-1 button:hover{
+.product_box-1 button:hover {
   scale: 1;
   cursor: pointer;
 }
 
-.product_box-1 h3{
+.product_box-1 h3 {
   font-family: "Aldrich", serif;
   font-weight: 100;
+}
+
+.clone_img{
+  position: absolute;
+  top: 100px;
+  right: 94px;
+}
+
+.produc_animate {
+  animation: imgMove 1.5s linear forwards;
+  z-index: 1000;
+}
+
+@keyframes imgMove {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(600px);
+    scale: 0.7;
+    translate: 50px;
+    opacity: 0;
+    display: none;
+  }
 }
