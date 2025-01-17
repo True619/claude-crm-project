@@ -16,3 +16,16 @@ productButton.forEach((button, index) => {
 
   });
 });
+function findPosition() {
+  const element = document.getElementById('basket_product');
+  const rect = element.getBoundingClientRect();
+  
+  // Ekrandagi element pozitsiyasi
+  const position = {
+    top: rect.top + window.scrollY,
+    left: rect.left + window.scrollX
+  };
+
+  // Natijani ekranda chiqarish
+  document.getElementById('position').innerText = `Top: ${position.top}px, Left: ${position.left}px`;
+}
